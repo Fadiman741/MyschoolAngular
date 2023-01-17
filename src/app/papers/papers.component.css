@@ -1,0 +1,81 @@
+.tab {
+    float: left;
+    margin: 0;
+    background-color: #f1f1f1;
+    width: 30%;
+    height: 95vh;
+}
+
+.tab button {
+    display: block;
+
+    color: black;
+    padding: 22px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tab button:hover {
+    background-color: orange;
+    color: white;
+}
+
+.tab button.active {
+    background-color: orange;
+    color: white;
+}
+
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 70%;
+    height: 95vh;
+    border-left: none;
+
+}
+
+
+
+
+.grid-container {
+    height: 95vh;
+
+
+}
+
+.grid-item {
+    background-color: orange;
+    margin: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    height: 300px;
+    width: 46%;
+    padding: 30px;
+
+}
+
+.grid-item button {
+    background-color: rgb(242, 245, 247);
+    border: none;
+    color: black;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 120px;
+    height: 40px;
+}
+
+.grid-item button:hover {
+    background-color: rgb(53, 52, 52);
+    color: white;
+}
+
+.tab .grid-item {
+    width: 90%;
+}

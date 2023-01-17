@@ -1,0 +1,46 @@
+<div id="id01" class="signup">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close"
+          title="Close signup">&times;</span>
+  <form class="signup-content" action="/action_page.php">
+          <div class="container">
+                  <p style="color:#ddd">Please fill in this form to create an account.</p>
+                  <hr>
+                  <input style="border-radius:10px" type="text" placeholder="Username" name="name"
+                          required>
+                  <select id="province" name="Provinces" style="border-radius:10px">
+                          <option value="Gauteng">Gauteng</option>
+                          <option value="Limpopo">Limpopo</option>
+                          <option value="NorthWest">North West</option>
+                          <option value="Mpumalanga">Mpumalanga</option>
+                          <option value="KwaZulu Natal">KwaZulu Natal</option>
+                          <option value="Eastern cape">Eastern Cape</option>
+                          <option value="Western cape">Western Cape</option>
+                          <option value="Northern Cape">Northen Capew</option>
+                          <option value="Free State">Free State</option>
+                  </select>
+                  <br>
+
+                  <input style="border-radius:10px" type="text" placeholder="Enter Email"
+                          name="email" required>
+                  <input style="border-radius:10px" type="password" placeholder="Enter Password"
+                          name="psw" required>
+                  <input style="border-radius:10px" type="password" placeholder="Repeat Password"
+                          name="psw-repeat" required>
+                  <label style="color:#ddd">
+                          <input type="checkbox" checked="checked" name="remember"
+                                  style="margin-bottom:15px">
+                          Remember me
+                  </label>
+                  <p style="color:#ddd">By creating an account you agree to our <a href="#"
+                                  style="color:orange">Terms &
+                                  Privacy</a>.</p>
+                  <div class="clearfix">
+                          <button style="border-radius:10px" type="button"
+                                  onclick="document.getElementById('id02').style.display='none'"
+                                  class="cancelbtn">Cancel</button>
+                          <button style="border-radius:10px" type="submit" class="signupbtn">Sign
+                                  Up</button>
+                  </div>
+          </div>
+  </form>
+</div>
